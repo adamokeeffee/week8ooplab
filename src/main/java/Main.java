@@ -11,7 +11,13 @@ public class Main {
         part2customer.setNumber("08538388");
         part2customer.setCustomerNum("2000000");
         part2customer.setMailingList(true);
-        System.out.println(part2customer);
+
+        System.out.println("part 2 customers details:");
+        System.out.println("name :" + part2customer.getName());
+        System.out.println("address :" + part2customer.getAddress());
+        System.out.println("number :" + part2customer.getNumber());
+        System.out.println("customerNum :" + part2customer.getCustomerNum());
+        System.out.println("mailingList :" + part2customer.isMailingList());
     }
 }
 
